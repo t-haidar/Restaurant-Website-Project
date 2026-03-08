@@ -1,0 +1,49 @@
+body{
+font-family:Arial;
+margin:0;
+background:#111;
+color:white;
+text-align:center;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+background:black;
+padding:15px;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+padding:120px 20px;
+background:url("https://images.unsplash.com/photo-1552566626-52f8b828add9") center/cover;
+}
+
+.menu{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.item{
+background:#222;
+padding:15px;
+border-radius:10px;
+}
+
+.item img{
+width:200px;
+height:150px;
+object-fit:cover;
+}
