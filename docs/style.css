@@ -47,3 +47,13 @@ width:200px;
 height:150px;
 object-fit:cover;
 }
+.slider{
+max-width:600px;
+margin:auto;
+}
+
+.slide{
+width:100%;
+display:none;
+border-radius:10px;
+}
