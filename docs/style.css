@@ -1,3 +1,8 @@
+img{
+max-width:100%;
+height:auto;
+}
+
 /* General Page Style */
 
 body{
@@ -97,22 +102,23 @@ margin-top:10px;
 
 /* Gallery Slider */
 
+/* Gallery Slider */
+
 .slider{
 max-width:600px;
 height:350px;
 margin:40px auto;
-overflow:hidden;
 position:relative;
+overflow:hidden;
 }
 
 .slide{
-width:100%;
+width:600px;
 height:350px;
 object-fit:cover;
 display:none;
-border-radius:10px;
+margin:auto;
 }
-
 /* Contact Form */
 
 form{
