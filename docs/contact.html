@@ -1,27 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Contact</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
-
 <body>
 
-<h1>Contact Us</h1>
+  <header>
+    <nav>
+      <h2>Patty's</h2>
 
-<form>
-<input type="text" placeholder="Name"><br><br>
-<input type="email" placeholder="Email"><br><br>
-<textarea placeholder="Message"></textarea><br><br>
-<button>Send</button>
-</form>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
 
-<h2>Location</h2>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<iframe
-src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed"
-width="400" height="300">
-</iframe>
+  <main>
+    <h1>Contact Us</h1>
+
+    <form>
+      <input type="text" placeholder="Name" required><br><br>
+      <input type="email" placeholder="Email" required><br><br>
+      <textarea placeholder="Message" rows="5" required></textarea><br><br>
+      <button type="submit">Send</button>
+    </form>
+
+    <h2>Location</h2>
+
+    <iframe
+      src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      width="400"
+      height="300"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy">
+    </iframe>
+  </main>
+
+  <footer>
+    <p>Open: Mon–Sun 10AM – 8PM</p>
+    <p>Follow us: Facebook | Instagram</p>
+  </footer>
 
 </body>
 </html>
