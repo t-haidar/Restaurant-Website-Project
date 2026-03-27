@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="style.css">
 let index = 0;
 let cart = [];
 
