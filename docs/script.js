@@ -17,4 +17,9 @@ function showSlides() {
   setTimeout(showSlides, 3000);
 }
 
+function toggleMenu() {
+  const navLinks = document.getElementById("nav-links");
+  navLinks.classList.toggle("show");
+}
+
 document.addEventListener("DOMContentLoaded", showSlides);
